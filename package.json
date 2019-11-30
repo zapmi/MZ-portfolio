@@ -1,0 +1,24 @@
+{
+  "name": "MZ-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "^5.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapmi/MZ-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zapmi/MZ-portfolio/issues"
+  },
+  "homepage": "https://github.com/zapmi/MZ-portfolio#readme"
+}
