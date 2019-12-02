@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@ng-bootstrap/ng-bootstrap": "^5.1.4"
+    "@ng-bootstrap/ng-bootstrap": "^5.1.4",
+    "bootstrap-social": "^5.1.1"
   },
   "devDependencies": {},
   "scripts": {
