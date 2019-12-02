@@ -13,7 +13,8 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: thin;
-    padding-top: 185px;
+    padding-top: 210px;
+    opacity: 65%;
 }
 
 .btn-floating {
@@ -23,7 +24,9 @@
 .fa {
     color: ghostwhite;
     float: right;
-    font-size: 1em;
+    font-size: 1.2em;
+    /* margin-right: 2px; */
+    opacity: 60%;
     padding: 4px;
     
 }
