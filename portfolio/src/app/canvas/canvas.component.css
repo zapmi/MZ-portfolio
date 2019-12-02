@@ -13,7 +13,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: thin;
-    padding-top: 210px;
+    padding-top: 200px;
     opacity: 65%;
 }
 
@@ -28,5 +28,20 @@
     /* margin-right: 2px; */
     opacity: 60%;
     padding: 4px;
+    
+}
+
+.clearfix {
+    /* overflow: auto; */
+  }
+
+.aboutButton {
+    /* background-color: #8f6457; */
+    background-color: #967062;
+    color: ghostwhite;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 45%;
     
 }
