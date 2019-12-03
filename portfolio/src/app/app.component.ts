@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  preventDefault() {
+    event.preventDefault();
+  }
   title = 'my-app';
+
+  onClick(event: Event) {
+    event.preventDefault();
+  }
 }
