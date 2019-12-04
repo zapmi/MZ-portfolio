@@ -5,6 +5,10 @@ a {
 .navbar-toggler {
     color: white;
     
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: -27px;
+    
 }
 
 .bikePic {
