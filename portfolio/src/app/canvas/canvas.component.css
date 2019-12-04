@@ -24,9 +24,14 @@
 .aboutButton {
     /* background-color: #8f6457; */
     background-color: #967062;
-    color: ghostwhite;
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
     opacity: 45%;
+    padding: 8px 30px;
+}
+
+.showWorkButton {
+    color: hotpink;
+    font-weight: bold;
 }

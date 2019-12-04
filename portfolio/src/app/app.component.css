@@ -3,5 +3,11 @@
     font-size: 1.2em;
     opacity: 60%;
     padding: 4px;
-    
+}
+
+.top-links {
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
