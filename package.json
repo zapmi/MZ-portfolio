@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
-    "bootstrap-social": "^5.1.1"
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "ng-sidebar": "^9.2.0"
   },
   "devDependencies": {},
   "scripts": {

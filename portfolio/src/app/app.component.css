@@ -2,12 +2,52 @@
     color: ghostwhite;
     font-size: 1.2em;
     opacity: 60%;
-    padding: 4px;
+    padding: 7px 4px 0 4px;
+    
+}
+
+.corner-content {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .top-links {
     z-index: 4;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    /* height: 25px; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.navbar {
+    padding-right: 1px;
+    
+}
+
+.navbar-toggler {
+    color: white;
+    font-size: 25px;
+    top: 0;
+    right: 0;
+    opacity: 60%;
+    /* margin-top: 10px; */
+    padding: 18px 1px;
+    
+}
+
+.nav-link {
+    /* padding: 13px 5px; */
+    /* padding-right: 5px; */
+    margin-top: 5px;
+    margin-right: 1px;
+    padding: 13px 4px 13px 8px!important;
 }
