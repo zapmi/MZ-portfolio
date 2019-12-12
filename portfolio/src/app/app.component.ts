@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   preventDefault() {
     event.preventDefault();
@@ -16,4 +17,8 @@ export class AppComponent {
   onClick(event: Event) {
     event.preventDefault();
   }
+
+  
 }
+
+
