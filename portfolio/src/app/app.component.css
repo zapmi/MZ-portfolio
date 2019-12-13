@@ -2,7 +2,7 @@
     color: ghostwhite;
     font-size: 1.2em;
     opacity: 60%;
-    padding: 7px 4px 0 4px;
+    padding: 5px 4px 0 4px;
     
 }
 
@@ -42,7 +42,7 @@ a {
 .navbar-toggler {
     border: none;
     box-shadow: none;
-    margin: 20px 0;
+    margin: 18px 0;
     outline: none;
     padding-right: 2px;
  
