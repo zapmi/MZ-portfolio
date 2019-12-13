@@ -13,7 +13,7 @@
     right: 0;
 }
 
-.top-links {
+.top-links, .navbar {
     z-index: 4;
     position: fixed;
     top: 0;
@@ -28,16 +28,23 @@ a {
     
 }
 
-.navbar {
+ .navbar-brand {
+    opacity: 60%;
     z-index: 4;
+    padding: 1px 0px 0px 4px;
     position: fixed;
+
+}
+.navbar {
+    padding: 0px;
 }
 
 .navbar-toggler {
     border: none;
-    /* top: 0!important;
-    right: 0!important; */
-    outline: none;
     box-shadow: none;
+    margin: 20px 0;
+    outline: none;
+    padding-right: 2px;
+ 
 }
 
