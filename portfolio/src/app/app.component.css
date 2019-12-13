@@ -29,23 +29,15 @@ a {
 }
 
 .navbar {
-    padding-right: 1px;
-    
+    z-index: 4;
+    position: fixed;
 }
 
 .navbar-toggler {
-    color: white;
-    font-size: 25px;
-    opacity: 60%;
-    padding: 18px 1px;
-    
-    
+    border: none;
+    /* top: 0!important;
+    right: 0!important; */
+    outline: none;
+    box-shadow: none;
 }
 
-.nav-link {
-    /* padding: 13px 5px; */
-    /* padding-right: 5px; */
-    margin-top: 5px;
-    margin-right: 1px;
-    padding: 13px 4px 13px 8px!important;
-}

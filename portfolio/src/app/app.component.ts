@@ -14,9 +14,18 @@ export class AppComponent {
   }
   title = 'my-app';
 
-  onClick(event: Event) {
-    event.preventDefault();
-  }
+  
+    navbarOpen = false;
+  
+    toggleNavbar() {
+      this.navbarOpen = !this.navbarOpen;
+    }
+  
+  
+
+  // onClick(event: Event) {
+  //   event.preventDefault();
+  // }
 
   
 }
