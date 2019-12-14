@@ -1,9 +1,21 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        margin-top: 20px;
+    }
+
+    .navbar {
+        font-size: 20px;
+    }
+    
+}
+
 .fa {
     color: ghostwhite;
     font-size: 1.2em;
     opacity: 60%;
     padding: 5px 4px 0 4px;
-    
 }
 
 .corner-content {
@@ -25,16 +37,15 @@ a {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    
 }
 
- .navbar-brand {
+.navbar-brand {
     opacity: 60%;
     z-index: 4;
     padding: 1px 0px 0px 4px;
     position: fixed;
-
 }
+
 .navbar {
     padding: 0px;
 }
@@ -45,6 +56,4 @@ a {
     margin: 18px 0;
     outline: none;
     padding-right: 2px;
- 
 }
-
