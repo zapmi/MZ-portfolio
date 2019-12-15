@@ -14,7 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: '*', component: CanvasComponent },
-  // { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent }
 ];
 
 @NgModule({
