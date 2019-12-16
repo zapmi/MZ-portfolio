@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Routes, RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -14,7 +14,9 @@ import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: '*', component: CanvasComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
@@ -30,11 +32,19 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
-    // NgbModule
+    RouterModule,
+    NgbModule
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
+  
+
+
+
 export class AppModule { }
 
 
