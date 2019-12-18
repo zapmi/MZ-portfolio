@@ -33,7 +33,7 @@ export class ProjectsComponent implements OnInit {
 
   constructor(public el: ElementRef) { }
 
-  @HostListener('window:scroll', ['$event'])
+  @HostListener('window:scroll', [])
   checkScroll() {
     const componentPosition = this.el.nativeElement.offsetTop
     const scrollPosition = window.pageYOffset
