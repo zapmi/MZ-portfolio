@@ -10,8 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    // "build": "ng build",
-    "build": "npm run build",
+    "build": "ng build",
     "build:prod": "ng build --prod"
   },
   "repository": {
