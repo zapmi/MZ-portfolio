@@ -28,6 +28,10 @@
     /* background-color: black; */
 }
 
+.col-md-4 {
+    /* padding: 0 15px; */
+}
+
 .col-sm-12, .col-md-4  {
     /* float: left; */
     /* align-content: center;
@@ -85,5 +89,10 @@
 .portPics {
     width: 315px;
     height: 215px;
+    /* padding: 0 15px; */
 
+}
+
+.bottomSpace {
+    /* margin-bottom: 130px; */
 }
