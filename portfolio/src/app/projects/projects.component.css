@@ -17,9 +17,10 @@
 #projectDiv {
     color: ghostwhite;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: thin;
-    padding-top: 200px;
+    margin-bottom: 20px;
+    padding-top: 100px;
     opacity: 65%;
 }
 
@@ -27,17 +28,53 @@
     background-color: black;
 }
 
-.aboutButton {
-    /* background-color: #8f6457; */
-    background-color: #967062;
-    display: inline-block;
-    font-size: 30px;
-    margin-top: 10px;
-    opacity: 45%;
-    padding: 8px 30px;
+.portPics {
+    /* float: left; */
+    align-content: center;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    opacity: 1;
+    /* padding-left: 40px; */
 }
 
-.showWorkButton {
-    color: hotpink;
-    font-weight: bold;
+.picsBanner {
+    position: relative;
+    background-color: rgba(84, 74, 230, 0.39);
+    text-align: center;
+    bottom: 1em;
+    padding: .3em .6em; 
+    /* padding: 0px 20px 0px 20px; */
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    /* margin-left: 81px; */
+    /* margin-left: 0px; */
+    width: 245px;
+    resize: vertical;
+}  
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.portPics:hover .image {
+    opacity: 0.3;
+  }
+  
+  .portPics:hover .middle {
+    opacity: 1;
+  }
+
+.col-sm-12, .col-md-4 {
+    padding: 0;
 }
