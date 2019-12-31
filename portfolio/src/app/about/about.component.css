@@ -1,6 +1,6 @@
 @media (max-width: 992px) {
     .catStretch {
-        width: 65%;
+        width: 45%;
         height: auto;
     }
 }
@@ -13,12 +13,18 @@
     }
 }
 
+/* .catStretch {
+    width: 450px;
+    height: 400px;
+} */
+
 
 .about {
     
     background-size: cover;
     width: 100%;
-    height: 822px;
+    /* height: 822px; */
+    height: fit-content;
     text-align: center;
     line-height: 30px;
 }
@@ -28,28 +34,15 @@
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: thin;
-    padding: 65px 3px 10px 3px;
+    padding: 100px 3px 10px 3px;
     opacity: 65%;
 }
 
-.btn-floating {
-    background-color: black;
-}
-
-.aboutButton {
-    background-color: #967062;
-    display: inline-block;
-    font-size: 30px;
-    margin-top: 10px;
-    opacity: 45%;
-    padding: 8px 30px;
-}
-
-.showWorkButton {
-    color: hotpink;
-    font-weight: bold;
+.container {
+    padding-bottom: 260px;
 }
 
 p {
     color: ghostwhite;
+    font-size: 20px;
 }
