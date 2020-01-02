@@ -1,5 +1,7 @@
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
+        color: ghostwhite;
+        opacity: 85%!important;
         padding-right: .5rem;
         padding-left: .5rem;
         margin-top: 20px;
@@ -50,6 +52,9 @@ a {
 }
 
 .nav-link {
+    color: ghostwhite;
+    font-size: 18px;
+    opacity: 95%!important;
     padding-left: 14px;
 }
 

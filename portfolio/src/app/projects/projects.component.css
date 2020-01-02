@@ -16,11 +16,10 @@
     padding-top: 100px;
     opacity: 65%;
 }
-
-h4 {
-    padding-bottom: 35px;
-    /* text-align: center; */
-    
+a {
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: none;
 }
 
 .portPics {
@@ -32,10 +31,19 @@ h4 {
 }
 
 .bottomSpace {
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 
 div.row {
     padding: 0;
     margin: 0;
+}
+
+
+.picsBanner {
+    color: ghostwhite;
+    font-size: 22px;
+    padding-bottom: 35px;
+    margin: 0;
+    width: 315px;
 }
