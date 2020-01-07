@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-// import { HeaderComponent } from './header/header.component'
-// import { CanvasComponent } from './canvas/canvas.component'
+
 
 @Component({
   selector: 'app-root',
@@ -22,10 +21,6 @@ export class AppComponent {
     }
   
   
-
-  // onClick(event: Event) {
-  //   event.preventDefault();
-  // }
 
   
 }

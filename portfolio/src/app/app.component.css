@@ -6,11 +6,17 @@
         padding-left: .5rem;
         margin-top: 20px;
     }
-
     .navbar {
         font-size: 20px;
     }
-    
+}
+
+@media (max-width: 475px) {
+    .picOfMe {
+        width: 45%;
+        height: auto;
+        
+    }
 }
 
 .fa {
@@ -26,11 +32,9 @@
     right: 0;
 }
 
-
 a {
     color: ghostwhite;
     text-decoration: none;
-    
 }
 
 .navbar-brand {
@@ -58,5 +62,68 @@ a {
     padding-left: 14px;
 }
 
+.canvas {
+    background-image: url('/../assets/images/patricksPoint.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 30px;
+    opacity: 85%;
+    min-height: 100%;
+    width: 100%;
+}
 
+.intro {
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: thin;
+    padding-top: 175px;
+    opacity: 65%;
+}
 
+.intro2 {
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: thin;
+    
+    opacity: 65%;
+}
+
+.btn-floating {
+    background-color: black;
+}
+
+.aboutButton {
+    background-color: #7288a0;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 8px 30px;
+}
+
+.showWorkButton {
+    color: #f7d4aa;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.showWorkButton:hover {
+    color: hotpink;
+}
+
+.picOfMe {
+    border: 5px solid white;
+    border-radius: 100%;
+    opacity: 95%;
+    margin: 7px;
+}
+
+footer {
+    margin-top: 225px;
+    margin-bottom: 15px;
+    position: relative;
+}

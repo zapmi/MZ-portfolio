@@ -7,13 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CanvasComponent } from './canvas/canvas.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
-  { path: '*', component: CanvasComponent },
+  { path: '*', component: AppComponent },
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
@@ -22,7 +21,6 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    CanvasComponent,
     ProjectsComponent,
     AboutComponent,
     ContactComponent,
@@ -41,7 +39,7 @@ const appRoutes: Routes = [
 })
 
 
-  
+
 
 
 
