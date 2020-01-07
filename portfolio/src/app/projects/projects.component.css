@@ -1,5 +1,5 @@
 .projects {
-    background-image: url('../../assets/images/patricksPoint.jpg');
+    /* background-image: url('../../assets/images/patricksPoint.jpg'); */
     background-size: cover;
     width: 100%;
     height: fit-content;
@@ -13,9 +13,10 @@
     font-size: 50px;
     font-weight: thin;
     margin-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 200px;
     opacity: 65%;
 }
+
 a {
     color: ghostwhite;
     text-align: center;
