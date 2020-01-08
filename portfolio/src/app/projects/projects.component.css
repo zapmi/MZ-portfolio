@@ -1,5 +1,4 @@
 .projects {
-    /* background-image: url('../../assets/images/patricksPoint.jpg'); */
     background-size: cover;
     width: 100%;
     height: fit-content;
@@ -8,31 +7,33 @@
 }
 
 #projectDiv {
-    color: ghostwhite;
+    color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: thin;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     padding-top: 175px;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 a {
-    color: ghostwhite;
+    color: lightsalmon;
+    font-size: 26px;
+    font-weight: bolder;
     text-align: center;
     text-decoration: none;
 }
 
 .portPics {
     border: 10px ridge white;
-    opacity: 73%;
+    opacity: 87%;
     height: 215px;
     width: 315px;
 
 }
 
 .bottomSpace {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 div.row {
@@ -42,8 +43,9 @@ div.row {
 
 
 .picsBanner {
-    color: ghostwhite;
+    color: white;
     font-size: 22px;
+    font-weight: bolder;
     padding-bottom: 35px;
     margin: 0;
     width: 315px;
