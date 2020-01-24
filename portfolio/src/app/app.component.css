@@ -47,11 +47,11 @@ a {
     text-decoration: none;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     opacity: 60%;
     padding: 1px 0px 0px 4px;
-    position: fixed;
-}
+    position: fixed; */
+/* } */
 
 .navbar {
     padding: 0px;
